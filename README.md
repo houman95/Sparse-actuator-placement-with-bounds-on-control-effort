@@ -34,8 +34,8 @@ $$
 where $W_i$ is the Gramian contribution from actuating state $i$ alone. If $W_\Delta$ is nonsingular, the unit-energy reachable set is
 
 $$
-\mathcal{R}_\Delta=
-\left\{x:x^\mathsf{T}W_\Delta^{-1}x\leq 1\right\}.
+\mathcal{R}_\Delta =
+\lbrace x \mid x^\top W_\Delta^{-1}x \leq 1 \rbrace.
 $$
 
 Its volume is proportional to $\sqrt{\det(W_\Delta)}$. A larger log-determinant therefore means that more state-space directions can be reached with limited input energy. This gives the equivalent control-effort metric
