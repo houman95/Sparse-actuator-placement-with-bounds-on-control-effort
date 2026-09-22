@@ -17,7 +17,7 @@ $$
 where each state is a possible actuator location. An actuator set $\Delta\subseteq\{1,\ldots,n\}$ is represented by
 
 $$
-B_\Delta=\operatorname{diag}(\delta), \qquad
+B_\Delta=\mathrm{diag}(\delta), \qquad
 \delta_i=
 \begin{cases}
 1, & i\in\Delta,\\
